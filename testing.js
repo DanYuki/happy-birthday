@@ -11,12 +11,12 @@ function collect(){
     }
     if(radiovalue == "option4"){
         jsondata = {
-            "sender": "User",
+            "sender": "Meyla-chan",
             "gift": radiovalue,
             "value": document.querySelector('.text-box').value}
     } else {
         jsondata = {
-            "sender": "User",
+            "sender": "Meyla-chan",
             "gift": radiovalue
         }
     }
